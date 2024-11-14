@@ -1,0 +1,126 @@
+body {
+    background-image: url(login-register.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 400px;
+    max-width: 23%;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0 30px 0 #666464;
+    animation-name: slideLeft;
+    animation-duration: 0.85s;
+    transition: ease;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(-50%);}
+}
+
+@media only screen and (max-width:700px){
+    body{
+        background-image: url(login-register.jpg);
+    }
+    .container {
+        min-width: 310px;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(7, 1, 1, 0.009);
+    border-radius: 4px;
+}
+
+input[type="password"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+
+input[type="password"]:focus,input[type="text"]:focus,input[type="date"]:focus{
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow:  0 0 12px 0#02c8ff;
+    
+}
+
+input[type="date"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+#gender{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+    display: block;
+    margin: 50px auto 50px auto;
+    background-color: #b142e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+  margin-bottom: 30px;
+}
+
+#submit-button:hover{
+    font-weight: bold;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #d56bd5;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 13px 0 #a1c1e2;
+    transition: 0.25s;
+}
+
+button:active {
+    opacity: 0.45;
+}
+
+.form-switch {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-switch a {
+    text-decoration: none;
+    color: #3913d2;
+}
+
+

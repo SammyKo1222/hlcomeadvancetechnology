@@ -1,0 +1,45 @@
+header {
+    background-color: #e0f7fa;
+    color: #160202;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Home Fibre Plan 样式 */
+.home-fibre {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+.home-fibre h2 {
+    color: #006064;
+}
+
+/* Home Fibre Plan 表格样式 */
+.home-fibre table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.home-fibre table th, .home-fibre table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.home-fibre table th {
+    background-color: #006064;
+    color: white;
+}
+
+.home-fibre ul.notes {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.home-fibre ul.notes li {
+    margin-bottom: 0.3rem;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login-register.css">
+    <script src="login-register.js" defer></script>
+</head>
+<body>
+    <div class="container" id="register-container">
+      <h2>Register</h2>
+      <form id="register-form">
+          <label for="register-username">Username:</label>
+          <input type="text" id="register-username" placeholder="Username" required>
+
+          <label for="register-password">Password:</label>
+          <input type="password" id="register-password" placeholder="Password" required>
+          <input type="checkbox" onclick="passwordVisibility2();">Show Password<br>
+
+          <label for="register-confirm-password">Confirm Password:</label>
+          <input type="password" id="register-confirm-password" placeholder="Password" required>
+          <input type="checkbox" onclick="passwordVisibility3();">Show Password
+
+       <button type="submit" onclick="RegisterConfirmation();">Register</button>
+      </form>
+
+      <div class="form-switch">
+          <a href="new-login.html" id="login-link">Already have an account? Login here.</a>
+      </div>
+  </div>
+</body>
+
+</html>

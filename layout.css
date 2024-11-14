@@ -1,0 +1,45 @@
+h1{
+	margin-left:30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article{
+	margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+	border-bottom: solid #b1b1b1;
+    
+}
+
+article >p{
+	word-spacing: 0.5px;
+	font-size: 1.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+img#homepage {
+   	padding: 10px 10px 10px 10px;
+    width: 250px;
+    float: right;
+    margin: 15px 30px 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
